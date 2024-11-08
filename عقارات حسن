@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حسن الكيران - بيع وكراء الشقق والمنازل في المغرب</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>حسن الكيران</h1>
+        <p>أفضل المنصات لبيع وكراء الشقق والمنازل في المغرب</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">عقارات للبيع</a></li>
+            <li><a href="#">عقارات للكراء</a></li>
+            <li><a href="#">اتصل بنا</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="search">
+            <h2>ابحث عن عقار</h2>
+            <form id="searchForm">
+                <input type="text" placeholder="المدينة أو المنطقة">
+                <select>
+                    <option value="sale">للبيع</option>
+                    <option value="rent">للإيجار</option>
+                </select>
+                <button type="submit">بحث</button>
+            </form>
+        </section>
+
+        <section id="listings">
+            <h2>أحدث العقارات</h2>
+            <div id="propertyList">
+                <!-- سيتم إضافة العقارات هنا باستخدام JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 حسن الكيران - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
